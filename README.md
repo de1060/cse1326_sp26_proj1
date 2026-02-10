@@ -23,8 +23,7 @@ Design:
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+    json file-->dataImporter;
+    dataImporter -->Array of grades;
+    Array of grades -->commandProcessor;
 ```
