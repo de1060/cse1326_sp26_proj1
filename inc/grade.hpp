@@ -10,7 +10,7 @@ struct letterGrade
 // This class holds the grade data for one course.
 struct grade
 {
-	display();
+	print();
 	grade();
 	~grade();
 
