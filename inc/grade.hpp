@@ -1,12 +1,22 @@
+#include <string>
+#include <iostream>
+
 // This class holds the grade date for one course.
 struct grade
 {
 	grade();
+
+	double 
+	courseGPA, dropPercent;
+	short 
+	courseNum, gradeCount, sectionNum, year; 
+	string 
+	career, courseTitle, instructor, semester, subjectID
+
 };
 
 
-//Sample to see how the data looks. 
-
+//---Sample, to see how the data looks as a quick reference.---
 /*
 {
       "subject_id": "SPAN",
@@ -56,5 +66,50 @@ struct grade
         "Z": "0",
         "R": "0"
       },
+      "grades_count": "26",
+      "year": "2020",
+      "semester": "Fall",
+      "career": "GRAD",
+      "instructor1": "Aaron Smallwood",
+      "instructor2": "",
+      "instructor3": "",
+      "instructor4": "",
+      "instructor5": "",
+      "course_gpa": 3.17,
+      "drop_percent": 6.67
+    },
+    {
+      "subject_id": "ME",
+      "course_number": "5316",
+      "course_title": "THERMAL CONDUCTION",
+      "section_number": "004",
+      "grades": {
+        "A": "7",
+        "B": "2",
+        "C": "0",
+        "D": "0",
+        "F": "0",
+        "I": "0",
+        "P": "0",
+        "Q": "0",
+        "W": "0",
+        "Z": "0",
+        "R": "0"
+      },
+      "grades_count": "9",
+      "year": "2020",
+      "semester": "Fall",
+      "career": "GRAD",
+      "instructor1": "Abdolhossein Haji-Sheikh",
+      "instructor2": "",
+      "instructor3": "",
+      "instructor4": "",
+      "instructor5": "",
+      "course_gpa": 3.78,
+      "drop_percent": 0.0
+    },
+*/
+
+/*
 
 */
