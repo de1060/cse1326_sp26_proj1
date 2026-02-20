@@ -10,10 +10,11 @@ struct letterGrade
 // This class holds the grade date for one course.
 struct grade
 {
+	display();
 	grade();
 	letterGrade letterG;
 
-	double 
+	float 
 	courseGPA, dropPercent;
 	short 
 	courseNum, gradeCount, sectionNum, year; 
@@ -120,6 +121,7 @@ struct grade
 
 //---References---
 /*
+https://www.geeksforgeeks.org/c/c-float-and-double/
 https://www.geeksforgeeks.org/cpp/enumeration-in-cpp/
 https://stackoverflow.com/questions/71001258/how-to-read-and-use-data-in-a-json-file-using-c
 */
