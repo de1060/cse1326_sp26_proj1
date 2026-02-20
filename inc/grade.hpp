@@ -1,19 +1,26 @@
 #include <string>
 #include <iostream>
 
+struct letterGrade
+{
+		short A, B, C, D, F, I, P, Q, W, Z, R;
+};
+
 // This class holds the grade date for one course.
 struct grade
 {
 	grade();
+	letterGrade letterG;
 
 	double 
 	courseGPA, dropPercent;
 	short 
 	courseNum, gradeCount, sectionNum, year; 
 	string 
-	career, courseTitle, instructor, semester, subjectID
+	career, courseTitle, instructor, semester, subjectID;
 
 };
+;
 
 
 //---Sample, to see how the data looks as a quick reference.---
@@ -110,6 +117,8 @@ struct grade
     },
 */
 
+//---References---
 /*
-
+https://www.geeksforgeeks.org/cpp/enumeration-in-cpp/
+https://stackoverflow.com/questions/71001258/how-to-read-and-use-data-in-a-json-file-using-c
 */
