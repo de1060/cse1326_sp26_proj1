@@ -7,7 +7,7 @@ struct letterGrade
 	A, B, C, D, F, I, P, Q, W, Z, R;
 };
 
-// This class holds the grade date for one course.
+// This class holds the grade data for one course.
 struct grade
 {
 	display();
