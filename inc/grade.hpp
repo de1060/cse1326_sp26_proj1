@@ -13,8 +13,10 @@ struct grade
 	display();
 	grade();
 	~grade();
-	letterGrade letterG;
 
+	letterGrade letterG;
+	static unsigned int dataCounter;
+	
 	float 
 	courseGPA, dropPercent;
 	short 
@@ -118,6 +120,8 @@ struct grade
       "course_gpa": 3.78,
       "drop_percent": 0.0
     },
+
+	
 */
 
 //---References---
