@@ -12,6 +12,7 @@ struct grade
 {
 	display();
 	grade();
+	~grade();
 	letterGrade letterG;
 
 	float 
