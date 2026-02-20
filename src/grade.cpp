@@ -1,9 +1,34 @@
 #include "grade.hpp"
 
+//int grade::
+
+//Default constructor
 grade::grade()
 {
 	// this is a highly sophisticated constructor
 }
+
+//Constructor
+grade::grade(float courseGPA,   float dropPercent,  short courseNum,  short gradeCount
+			 short sectionNum,  short year,         string career,    string courseTitle,
+			 string instructor, string semester,    string subjectID)
+{
+	this->dropPercent =  dropPercent;
+	this->courseTitle = courseTitle;
+	this->instructor = instructor;
+	this->gradeCount = gradeCount;
+	this->sectionNum = sectionNum;
+	this->courseNum = courseNum;
+	this->courseGPA = courseGPA;
+	this->subjectID = subjectID;
+	this->semester = semester;
+	this->career = career;
+	this->year = year;
+
+}
+
+//Destructor
+grade::~grade()
 
 
 
@@ -18,23 +43,6 @@ struct letterGrade
 	short 
 	A, B, C, D, F, I, P, Q, W, Z, R;
 };
-
-// This class holds the grade date for one course.
-struct grade
-{
-	display();
-	grade();
-	letterGrade letterG;
-
-	float 
-	courseGPA, dropPercent;
-	short 
-	courseNum, gradeCount, sectionNum, year; 
-	string 
-	career, courseTitle, instructor, semester, subjectID;
-
-};
-;
 
 
 //---Sample, to see how the data looks as a quick reference.---
@@ -136,5 +144,7 @@ struct grade
 https://www.geeksforgeeks.org/c/c-float-and-double/
 https://www.geeksforgeeks.org/cpp/enumeration-in-cpp/
 https://stackoverflow.com/questions/71001258/how-to-read-and-use-data-in-a-json-file-using-c
+https://www.geeksforgeeks.org/cpp/this-pointer-in-c/
+https://www.youtube.com/watch?v=F1Drzhzpwtc        (this Keyword And Use Cases Explained | C++ Tutorial [Portfolio Courses])
 */
 */
