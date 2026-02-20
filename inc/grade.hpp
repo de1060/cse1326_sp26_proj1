@@ -10,13 +10,19 @@ struct letterGrade
 // This class holds the grade data for one course.
 struct grade
 {
-	print();
+	//Class constructors/destructors
 	grade();
+	grade(float, float, short, short, short, short,
+		  string, string, string, string, string)
 	~grade();
+
+	//Class functions
+	void print();
 
 	letterGrade letterG;
 	static unsigned int dataCounter;
-	
+
+	//Class member variables
 	float 
 	courseGPA, dropPercent;
 	short 
