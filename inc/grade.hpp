@@ -23,7 +23,7 @@ struct grade
 	career, courseTitle, instructor, semester, subjectID;
 
 };
-;
+
 
 
 //---Sample, to see how the data looks as a quick reference.---
