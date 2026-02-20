@@ -3,7 +3,8 @@
 
 struct letterGrade
 {
-		short A, B, C, D, F, I, P, Q, W, Z, R;
+	short 
+	A, B, C, D, F, I, P, Q, W, Z, R;
 };
 
 // This class holds the grade date for one course.
