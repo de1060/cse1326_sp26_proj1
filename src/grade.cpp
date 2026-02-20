@@ -1,11 +1,12 @@
 #include "grade.hpp"
 
-//int grade::
+unsigned int grade::dataCounter;
 
 //Default constructor
 grade::grade()
 {
 	// this is a highly sophisticated constructor
+	dataCounter++;
 }
 
 //Constructor
