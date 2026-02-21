@@ -1,4 +1,6 @@
 #include "grade.hpp"
+#include <iostream>
+#include <string>
 
 unsigned int grade::dataCounter;
 
@@ -10,11 +12,11 @@ grade::grade()
 }
 
 //Constructor
-grade::grade(float courseGPA,   float dropPercent,  short courseNum,  short gradeCount
-			 short sectionNum,  short year,         string career,    string courseTitle,
-			 string instructor, string semester,    string subjectID)
+grade::grade(float courseGPA,   float dropPercent,  short courseNum,    short gradeCount
+			 short sectionNum,  short year, std::string career, std::string courseTitle,
+			 std::string instructor, std::string semester, std::string subjectID)
 {
-	this->dropPercent =  dropPercent;
+	this->dropPercent = dropPercent;
 	this->courseTitle = courseTitle;
 	this->instructor = instructor;
 	this->gradeCount = gradeCount;
@@ -31,7 +33,10 @@ grade::grade(float courseGPA,   float dropPercent,  short courseNum,  short grad
 //Destructor
 grade::~grade()
 
-
+grade::print()
+{
+	
+}
 
 
 
