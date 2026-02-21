@@ -13,13 +13,13 @@ struct grade
 	//Class constructors/destructors
 	grade();
 	grade(float, float, short, short, short, short,
-		  string, string, string, string, string)
+		  std::string, std::string, std::string, std::string, std::string)
 	~grade();
 
 	//Class functions
 	void print();
 
-	//Yes
+	//Class' object
 	letterGrade letterG;
 
 	//Class member variables
