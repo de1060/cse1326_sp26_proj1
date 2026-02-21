@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-unsigned int grade::dataCounter;
+unsigned int grade::dataCounter = 0;
 
 //Default constructor
 grade::grade()
@@ -32,9 +32,39 @@ grade::grade(float courseGPA,   float dropPercent,  short courseNum,    short gr
 
 //Destructor
 grade::~grade()
+{
+	std::cout << "Destructor is called" << std::endl;
+}
 
 grade::print()
 {
+	std::cout << "Subject ID: "     << this->sujectID    << std::endl
+			  << "Course Number: "  << this->courseNum   << std::endl
+			  << "Course Title: "   << this->courseTitle << std::endl
+			  << "Section Number: " << this->sectionNum  << std::endl
+			  << "Grades:" 			<< std::endl
+			  << "A:" 				<< grade.A << std::endl
+			  << "B:" 				<< grade.B << std::endl
+			  << "C:"				<< grade.C << std::endl
+			  << "D:" 				<< grade.D << std::endl
+			  << "F:" 				<< grade.F << std::endl
+			  << "I:" 				<< grade.I << std::endl
+			  << "P:" 				<< grade.P << std::endl
+			  << "Q:" 				<< grade.Q << std::endl
+			  << "W:" 				<< grade.W << std::endl
+			  << "Z:" 				<< grade.Z << std::endl
+			  << "R:" 				<< grade.R << std::endl
+			  << "Grades Count:" 	<< std::endl //?
+			  << "Year:" 			<< this->year << std::endl
+			  << "Semester:"	 	<< this->semester << std::endl 
+			  << "Career:" 			<< this->career << std::endl
+			  << "Instructor1:" 	<< std::endl //?
+			  << "Instructor2:" 	<< std::endl //?
+			  << "Instructor3:" 	<< std::endl //?
+			  << "Instructor4:" 	<< std::endl //?
+			  << "Instructor5:"		<< std::endl //?
+			  << "Course GPA:" 		<< this->courseGPA << std::endl
+			  << "Drop Percent:" 	<< this->dropPercent << std::endl;
 	
 }
 
