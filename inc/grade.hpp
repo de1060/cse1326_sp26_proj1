@@ -27,7 +27,7 @@ struct grade
 	courseGPA, dropPercent;
 	short 
 	courseNum, gradeCount, sectionNum, year; 
-	string 
+	std::string 
 	career, courseTitle, instructor, semester, subjectID;
 
 };
