@@ -26,9 +26,6 @@ struct grade
 	short courseNum, gradeCount, sectionNum, year;
     static unsigned int dataCounter;
 	float courseGPA, dropPercent;
-
-
-
 };
 
 
@@ -124,9 +121,7 @@ struct grade
       "instructor5": "",
       "course_gpa": 3.78,
       "drop_percent": 0.0
-    },
-
-	
+    },	
 */
 
 //---References---
