@@ -7,8 +7,8 @@ unsigned int grade::dataCounter = 0;
 //Default constructor
 grade::grade()
 {
-	// this is a highly sophisticated constructor
-	dataCounter++; //?
+				   // this is a highly sophisticated constructor
+	dataCounter++; //? <--this comment means "I don't yet" or "I am stuck on how to implement".
 }
 
 //Constructor
