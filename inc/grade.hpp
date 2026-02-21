@@ -3,8 +3,7 @@
 
 struct letterGrade
 {
-	short 
-	A, B, C, D, F, I, P, Q, W, Z, R;
+	short A, B, C, D, F, I, P, Q, W, Z, R;
 };
 
 // This class holds the grade data for one course.
