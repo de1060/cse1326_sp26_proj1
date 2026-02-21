@@ -19,16 +19,16 @@ struct grade
 	//Class functions
 	void print();
 
+	//Yes
 	letterGrade letterG;
-	static unsigned int dataCounter;
 
 	//Class member variables
-	float 
-	courseGPA, dropPercent;
-	short 
-	courseNum, gradeCount, sectionNum, year; 
-	std::string 
-	career, courseTitle, instructor, semester, subjectID;
+	std::string career, courseTitle, instructor, semester, subjectID;
+	short courseNum, gradeCount, sectionNum, year;
+    static unsigned int dataCounter;
+	float courseGPA, dropPercent;
+
+
 
 };
 
